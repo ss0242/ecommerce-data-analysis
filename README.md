@@ -8,3 +8,6 @@ Tableau Public Sites:
 
 Dataset:
 https://www.kaggle.com/olistbr/brazilian-ecommerce
+
+Reviews Preprocessor:
+df.review_comment_message_english.str.split(expand=True).stack().value_counts()
